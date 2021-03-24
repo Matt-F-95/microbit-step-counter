@@ -51,15 +51,15 @@ basic.forever(function () {
         basic.showIcon(IconNames.Pitchfork)
     }
     if (steps == 15000) {
-        music.startMelody(music.builtInMelody(Melodies.Birthday), MelodyOptions.Once)
+        music.startMelody(music.builtInMelody(Melodies.Nyan), MelodyOptions.Once)
         basic.showIcon(IconNames.LeftTriangle)
     }
     if (steps == 17500) {
-        music.startMelody(music.builtInMelody(Melodies.Birthday), MelodyOptions.Once)
+        music.startMelody(music.builtInMelody(Melodies.Ode), MelodyOptions.Once)
         basic.showIcon(IconNames.Asleep)
     }
     if (steps == 20000) {
-        music.startMelody(music.builtInMelody(Melodies.Birthday), MelodyOptions.Once)
+        music.startMelody(music.builtInMelody(Melodies.Funk), MelodyOptions.Once)
         basic.showIcon(IconNames.Silly)
     }
     if (steps == 25000) {
